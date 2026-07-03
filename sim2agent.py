@@ -6,7 +6,7 @@ from two_agent import DQNAgent
 
 def simulate(env, controller, episodes=1):
     """Run simulation with trained agents and calculate total averages"""
-    total_success = 0
+    ttal_success = 0
     total_energy = 0
     total_energy_efficiency = 0
     total_success_probability = 0
